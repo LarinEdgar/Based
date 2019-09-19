@@ -1,0 +1,83 @@
+.c100 .bar,
+.c100.p89 .fill,
+.c100.p93 .fill,
+.c100.p97 .fill,
+.c100.p99 .fill {
+    position: absolute;
+    border: 8px solid #e74c3c;
+    width: 0.84em;
+    height: 0.84em;
+    clip: rect(0em, 0.5em, 1em, 0em);
+    border-radius: 50%;
+}
+
+.pie-fill,
+.c100.p89 .bar:after,
+.c100.p89 .fill,
+.c100.p93 .bar:after,
+.c100.p93 .fill,
+.c100.p97 .bar:after,
+.c100.p97 .fill,
+.c100.p99 .bar:after,
+.c100.p99 .fill {
+    transform: rotate(175deg);
+}
+
+.c100 {
+    position: relative;
+    width: 1em;
+    height: 1em;
+    float: left;
+    margin: 0 0.1em 0.1em 0;
+}
+
+.c100.big {
+    font-size: 240px;
+}
+
+.c100 > span {
+    position: absolute;
+    width: 230px;
+    line-height: 4.1em;
+    font-size: 50px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    transition-duration: 0.2s;
+}
+
+.c100.p89 .bar {
+    transform: rotate(295deg);
+}
+
+.c100.p93 .bar {
+    transform: rotate(310deg);
+}
+
+.c100.p97 .bar {
+    transform: rotate(325deg);
+}
+
+.c100.p99 .bar {
+    transform: rotate(335deg);
+}
+
+.c100:hover {
+    cursor: default;
+}
+
+.c100:hover > span {
+    width: 3.33em;
+    line-height: 3.33em;
+    font-size: 0.3em;
+    color: #fff;
+}
+
+.c100.orange .bar,
+.c100.orange .fill {
+    border-color: #e74c3c !important;
+}
+
+.c100.orange:hover > span {
+    color: #fff;
+}
